@@ -1,0 +1,58 @@
+export default [
+  {
+    id: 1,
+    title: 'The Moonlight Child',
+    author: 'Kindle Edition',
+    img: 'https://m.media-amazon.com/images/P/098641641X.01._SCLZZZZZZZ_SX500_.jpg',
+    price: 5,
+  },
+  {
+    id: 2,
+    title: 'American Marxism',
+    author: 'Hardcover',
+    img: 'https://images-na.ssl-images-amazon.com/images/I/51jrPkKjK8S._SX258_BO1,204,203,200_.jpg',
+    price: 16.8,
+  },
+  {
+    id: 3,
+    title: 'The Casanova',
+    author: 'Kindle Edition',
+    img: 'https://m.media-amazon.com/images/P/B08X472VK3.01._SCLZZZZZZZ_SX500_.jpg',
+    price: 3.99,
+  },
+  {
+    id: 4,
+    title: 'The Keeper of Happy Endings',
+    author: 'Kindle Edition',
+    img: 'https://m.media-amazon.com/images/P/B08X48G5VL.01._SCLZZZZZZZ_SX500_.jpg',
+    price: 4.99,
+  },
+  {
+    id: 5,
+    title: 'Rock Paper Scissors: A Novel',
+    author: 'Alice Feeney',
+    img: 'https://m.media-amazon.com/images/I/61rscLHMcpL.jpg',
+    price: 23.49,
+  },
+  {
+    id: 6,
+    title: 'Baking with Dorie: Sweet, Salty & Simple',
+    author: 'Dorie Greenspan',
+    img: 'https://m.media-amazon.com/images/P/035822358X.01._SCLZZZZZZZ_SX500_.jpg',
+    price: 29.99,
+  },
+  {
+    id: 7,
+    title: 'Once There Were Wolves',
+    author: 'Charlotte McConaghy',
+    img: 'https://images-na.ssl-images-amazon.com/images/I/41V4TQpXGhL._SX327_BO1,204,203,200_.jpg',
+    price: 20.69,
+  },
+  {
+    id: 8,
+    title: 'Stick and Stone: Best Friends Forever!',
+    author: 'Beth Ferry ',
+    img: 'https://images-na.ssl-images-amazon.com/images/I/A12+a4LyAdL.jpg',
+    price: 15.49,
+  },
+];

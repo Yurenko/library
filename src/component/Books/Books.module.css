@@ -1,0 +1,47 @@
+.bookItems {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.item {
+    width: 24%;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #CEE5D0;
+}
+
+.img {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.text span {
+    font-weight: 700;
+}
+
+.button {
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(107, 107, 221);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(79, 79, 167);
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: #F3F0D7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #5E454B;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logo:hover, .logo:focus {
+    text-decoration: underline;
+}
+
+.shop {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #5E454B
+}
+
+.shop:hover, .shop:focus {
+    text-decoration: underline;
+}
+
+.iconShop {
+    width: 25px;
+    height: 25px;
+    fill: #FFB319;
+    margin-right: 10px;
+}
