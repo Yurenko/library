@@ -26,11 +26,13 @@ class Books extends Component {
           <ul className={style.bookItems}>
             {bookses.map(i => (
               <li key={i.id} className={style.item}>
-                <img
-                  src={i.img ? i.img : icon}
-                  alt={i.title}
-                  className={style.img}
-                />
+                <div className={style.bookCover}>
+                  <img
+                    src={i.img ? i.img : icon}
+                    alt={i.title}
+                    className={style.img}
+                  />
+                </div>
                 <div className={style.text}>
                   <span> Title:</span>
                   {i.title}. <span>Author:</span>

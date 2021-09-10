@@ -2,21 +2,27 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0;
 }
 
 .item {
-    width: 24%;
+    width: 300px;
     margin-bottom: 20px;
     display: flex;
     background-color: #CEE5D0;
 }
 
-.img {
+.bookCover {
     width: 120px;
     height: auto;
-    padding: 10px;
+    padding: 5px;
+}
+
+.img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
 }
 
 .text {
