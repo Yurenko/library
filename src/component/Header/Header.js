@@ -3,10 +3,11 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import style from './Header.module.css';
 import sprite from '../../img/sprite/sprite.svg';
+import { getCashBooks, getTotalBooks } from '../../redux/books/BooksSelectors';
 
 function Header() {
-  const totalBooks = useSelector(state => state.storeBooks.totalBooks);
-  const cashBooks = useSelector(state => state.storeBooks.cashBooks);
+  const totalBooks = useSelector(getTotalBooks);
+  const cashBooks = useSelector(getCashBooks);
   return (
     <div className={style.header}>
       <NavLink to="/" className={style.logo}>
