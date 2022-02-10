@@ -8,6 +8,7 @@ import { getCashBooks, getTotalBooks } from '../../redux/books/BooksSelectors';
 function Header() {
   const totalBooks = useSelector(getTotalBooks);
   const cashBooks = useSelector(getCashBooks);
+
   return (
     <div className={style.header}>
       <NavLink to="/" className={style.logo}>

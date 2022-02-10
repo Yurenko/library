@@ -14,9 +14,9 @@ function Books() {
   }, []);
 
   return (
-    <div>
+    <div className={style.bookItems}>
       {books && (
-        <ul className={style.bookItems}>
+        <ul className={style.cardGrid}>
           {books.map(item => (
             <BooksItem key={item.id} item={item} />
           ))}

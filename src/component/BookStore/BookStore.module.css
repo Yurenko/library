@@ -1,62 +1,70 @@
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
+.order {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.table, th, td {
-    border: 1px solid #93B5C6;
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table,
+th,
+td {
+  border: 1px solid #93b5c6;
 }
 
 .table tr:nth-child(even) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .table tr:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 th {
-    text-align: center;
+  text-align: center;
 }
 
 td {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
-th:last-child, td:last-child {
-    width: 100px;
+th:last-child,
+td:last-child {
+  width: 100px;
 }
 
 .table svg {
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
 }
 
 .add:hover {
-    fill: green;
+  fill: green;
 }
 
 .minus:hover {
-    fill: yellow;
+  fill: yellow;
 }
 
 .close:hover {
-    fill: red;
+  fill: red;
 }
 
 .table button {
-    display: inline-block;
-    border: none;
-    background-color: Transparent;
-    border-radius: 50%;
+  display: inline-block;
+  border: none;
+  background-color: Transparent;
+  border-radius: 50%;
 }
 
 .total {
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    font-size: 25px;
-    font-weight: 600;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 600;
 }

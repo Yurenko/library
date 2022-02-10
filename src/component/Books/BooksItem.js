@@ -12,25 +12,32 @@ function BooksItem({ item }) {
   };
 
   return (
-    <li className={style.item}>
+    <li className={style.card}>
       <div className={style.bookCover}>
         <img src={item.img || icon} alt={item.title} className={style.img} />
       </div>
-      <div className={style.text}>
-        <span> Title:</span>
-        {item.title}. <span>Author:</span>
-        {item.author}
-        <span>Price:</span> ${item.price}
-        <button
-          type="button"
-          className={style.button}
-          onClick={() => {
-            handleAddBook(item);
-          }}
-        >
-          ADD
-        </button>
+      <div className={style.content}>
+        <div>
+          <span>Title: </span>
+          {item.title}.
+        </div>{' '}
+        <div>
+          <span>Author: </span>
+          {item.author}
+        </div>
+        <div>
+          <span>Price: </span>${item.price}
+        </div>
       </div>
+      <button
+        type="button"
+        className={style.button}
+        onClick={() => {
+          handleAddBook(item);
+        }}
+      >
+        ADD
+      </button>
     </li>
   );
 }

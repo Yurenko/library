@@ -30,7 +30,7 @@ function BookStore() {
   };
 
   return (
-    <div>
+    <div className={style.order}>
       <h2>YOU ORDER</h2>
       <table className={style.table}>
         <thead>
@@ -45,7 +45,7 @@ function BookStore() {
         <tbody>
           {Object.values(books).map((item, index) => (
             <BookStoreItem
-              key={item.id}
+              key={item[0].id}
               item={item}
               index={index}
               handleClickAddBook={handleClickAddBook}
